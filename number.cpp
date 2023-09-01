@@ -26,8 +26,9 @@ int main()
             cout << "Too high! Try again." << endl;
         }
     }
-
+    cout << "------------------------------------------------"<< endl;
     cout << "Congratulations! You guessed the correct number " << targetNumber << " in " << attempts << " attempts!" << endl;
+    cout << "------------------------------------------------"<< endl;
 
     return 0;
 }
